@@ -17,7 +17,6 @@ toggleSkills.addEventListener("click",function(){
 skillsSection.classList.toggle("hidden");
 });
 
-
 submitBtn.addEventListener("click",function(event){
     event.preventDefault();
     const name = document.getElementById("name").value;
@@ -28,3 +27,4 @@ submitBtn.addEventListener("click",function(event){
     alert("Form submitted successfully!");
     }
     });
+
