@@ -14,7 +14,6 @@ function App() {
         {darkMode? "Switch to Light Mode" :"Switch to Dark Mode"}
       
       </button>
-
       <h1>My Personal Online CV</h1>
       <Header />
       <About />
