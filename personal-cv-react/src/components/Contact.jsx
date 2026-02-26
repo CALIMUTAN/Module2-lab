@@ -1,5 +1,6 @@
 function Contact() {
     return (
+        
         <>
             <section class="card">
                 <h2>Contact Me</h2>
