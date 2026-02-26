@@ -9,11 +9,18 @@ function Skills() {
                 Show/Hide Skills
             </button>
             {visible && (
-                <ul>
+               <ul>  
+                <li>Web Development</li>
+                <ul>     
+                  <li>Frontend</li>  
+                  <ul>
                     <li>HTML</li>
                     <li>CSS</li>
                     <li>JavaScript</li>
+                  </ul>
+                  <li>Backend</li>
                 </ul>
+            </ul>   
             )}
         </section>
     );

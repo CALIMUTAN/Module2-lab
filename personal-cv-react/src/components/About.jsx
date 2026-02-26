@@ -1,9 +1,11 @@
+import profile from "../assets/profile.jpg";
+
 function About() {
     return (
        
           <section class ="card"> 
               <h2>About Me</h2>
-              <img src="images/profile.jpg" alt="Profile photo"></img>
+              <img src={profile} alt="Profile photo"/>
               <p>Hello I'm Vincent S. Calimutan currently a student in University of Science and 
                   Technology Philippines. I'm 20 years old and live in Brgy. Lapasan, Cagayan de Oro City
               </p>

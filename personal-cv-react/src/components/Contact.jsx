@@ -1,5 +1,6 @@
 function Contact() {
     return (
+        <>
             <section class="card">
                 <h2>Contact Me</h2>
                 <form>
@@ -9,7 +10,9 @@ function Contact() {
                             <button type="submit" id="submitBtn">Send</button>
                         </form>
                     </section>
-              
+               <footer><p>&copy; 2026 Vincent S. Calimutan. All rights reserved. </p>
+              </footer>
+         </>
                 );
 }
 export default Contact;
