@@ -1,9 +1,9 @@
 import profile from "../assets/profile.jpg";
-
+import Card from "./Card";
 function About() {
     return (
        
-          <section class ="card"> 
+          <Card class ="card"> 
               <h2>About Me</h2>
               <img src={profile} alt="Profile photo"/>
               <p>Hello I'm Vincent S. Calimutan currently a student in University of Science and 
@@ -15,7 +15,7 @@ function About() {
                   GitHub:
                   <a href="https://github.com/CALIMUTAN" target="_blank">https://github.com/CALIMUTAN</a>
               </p>
-          </section>
+          </Card>
     );
 }
 export default About;
