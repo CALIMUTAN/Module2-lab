@@ -5,31 +5,24 @@ function Skills({ skills }) {
 
   return (
     <section className="card">
-        <div>
       <h2>Skills</h2>
-      <ul>
-        <li>Web Development
-          <ul>
-            <li>Frontend
-              <ul>
-                {skills.map((skill, index) => (
-                  <li key={index}>{skill}</li>
-                ))}
-              </ul>
-            </li>
-            <li>Backend
-              <ul>
-    
-              </ul>
-            </li>
-          </ul>
-        </li>
-      </ul>
-    </div>
-  
 
+      <button onClick={() => setVisible(!visible)}>
+        Show/Hide Skills
+      </button>
+
+      {visible && (
+       
+            <ul>
+              {skills.map((skill, index) => (
+                <li key={index}>{skill}</li>
+              ))}
+            </ul>
+          )}
+        
     </section>
   );
 }
 
 export default Skills;
+
