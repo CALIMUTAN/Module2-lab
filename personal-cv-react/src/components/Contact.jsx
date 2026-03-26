@@ -33,7 +33,7 @@ function Contact() {
         }
       })
   }
-   
+
 return (
   <>
     <section className="card">
